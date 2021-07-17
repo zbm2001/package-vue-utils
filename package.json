@@ -1,5 +1,5 @@
 {
-  "name": "package-vue-utils",
+  "name": "vue-utils",
   "version": "1.0.0",
   "description": "A vue utils, prop descriptions, .etc.",
   "scripts": {
@@ -7,12 +7,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zbm2001/package-vue-utils.git"
+    "url": "git+https://github.com/zbm2001/vue-utils.git"
   },
   "author": "zbm2001@aliyun.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zbm2001/package-vue-utils/issues"
+    "url": "https://github.com/zbm2001/vue-utils/issues"
   },
-  "homepage": "https://github.com/zbm2001/package-vue-utils#readme"
+  "homepage": "https://github.com/zbm2001/vue-utils#readme"
 }
