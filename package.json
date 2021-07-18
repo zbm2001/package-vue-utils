@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/zbm2001/vue-utils/issues"
   },
-  "homepage": "https://github.com/zbm2001/vue-utils#readme"
+  "homepage": "https://github.com/zbm2001/vue-utils#readme",
+  "dependencies": {
+    "@zbm1/pkg-utils": "^0.1.0"
+  }
 }

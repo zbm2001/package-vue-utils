@@ -1,29 +1,28 @@
-export const emptyString = {
-  type: String,
-  default: ''
-}
-
-export const emptyObject = {
-  type: Object,
-  default: () => {}
-}
-
-export const emptyArray = {
-  type: Array,
-  default: () => []
-}
-
-export const noopFunction = {
-  type: Function,
-  default () {}
-}
-
-export const trueBoolean = {
-  type: Boolean,
-  default: true
-}
-
-export const falseBoolean = {
-  type: Boolean,
-  default: false
+module.exports = {
+  emptyString: {
+    type: String,
+    default: ''
+  },
+  emptyObject: {
+    type: Object,
+    default: () => {
+    }
+  },
+  emptyArray: {
+    type: Array,
+    default: () => []
+  },
+  noopFunction: {
+    type: Function,
+    default () {
+    }
+  },
+  trueBoolean: {
+    type: Boolean,
+    default: true
+  },
+  falseBoolean: {
+    type: Boolean,
+    default: false
+  }
 }

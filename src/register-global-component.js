@@ -1,5 +1,5 @@
-import Vue from 'vue'
-import {upperFirst, camelCase} from '@zbm1/pkg-utils/string'
+const Vue = require('vue')
+const {upperFirst, camelCase} = require('@zbm1/pkg-utils/src/string')
 
 /**
  * 注册全局组件
@@ -7,7 +7,7 @@ import {upperFirst, camelCase} from '@zbm1/pkg-utils/string'
  * @param useSubdirectories // 是否查询其子目录
  * @param regExp // 匹配基础组件文件名的正则表达式
  */
-export default function registerGlobalComponents (directory = './components', useSubdirectories = true, regExp = /\.vue$/) {
+module.exports = function registerGlobalComponents (directory = './components', useSubdirectories = true, regExp = /\.vue$/) {
   const requireComponent = require.context(
     // 其组件目录的相对路径
     directory,
