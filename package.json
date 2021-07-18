@@ -1,6 +1,6 @@
 {
-  "name": "vue-utils",
-  "version": "1.0.0",
+  "name": "@zbm1/vue-utils",
+  "version": "0.1.0",
   "description": "A vue utils, prop descriptions, .etc.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
